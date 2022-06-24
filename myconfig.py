@@ -51,8 +51,8 @@
 # 
 # #STEERING
 # STEERING_CHANNEL = 1            #channel on the 9685 pwm board 0-15
-STEERING_LEFT_PWM = 450         #pwm value for full left steering
-STEERING_RIGHT_PWM = 310        #pwm value for full right steering
+STEERING_LEFT_PWM = 510         #pwm value for full left steering
+STEERING_RIGHT_PWM = 270        #pwm value for full right steering
 # 
 # #STEERING FOR PIGPIO_PWM
 # STEERING_PWM_PIN = 13           #Pin numbering according to Broadcom numbers
@@ -62,7 +62,7 @@ STEERING_RIGHT_PWM = 310        #pwm value for full right steering
 # #THROTTLE
 # THROTTLE_CHANNEL = 0            #channel on the 9685 pwm board 0-15
 THROTTLE_FORWARD_PWM = 420      #pwm value for max forward throttle
-THROTTLE_STOPPED_PWM = 340      #pwm value for no movement
+THROTTLE_STOPPED_PWM = 360      #pwm value for no movement
 THROTTLE_REVERSE_PWM = 260      #pwm value for max reverse throttle
 # 
 # #THROTTLE FOR PIGPIO_PWM
